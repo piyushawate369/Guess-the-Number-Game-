@@ -37,18 +37,3 @@ fn main() {
 
 }
 
-// use std::io;
-
-// fn main() {
-//     println!("Guess the number");
-
-//     println!("Please input your guess:");
-
-//     let mut guess = String::new(); // Declare a mutable String
-
-//     io::stdin()
-//         .read_line(&mut guess) // Correct usage of read_line
-//         .expect("Failed to read line"); // Always good to handle potential errors
-
-//     println!("You guessed: {}", guess); // Use {} for variable interpolation
-// }
